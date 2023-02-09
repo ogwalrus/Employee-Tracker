@@ -1,5 +1,6 @@
 USE employee_db;
 
+
 INSERT INTO department (name)
 VALUES 
     ("Front-End"),
@@ -10,6 +11,7 @@ VALUES
     ("Seafood"),
     ("Meat"),
     ("Maintenance");
+
 
 INSERT INTO role (title, salary, department_id)
 VALUES  
@@ -29,6 +31,8 @@ VALUES
     ("Clerk", 77000, 7),
     ("Manager", 122000, 8),
     ("Clerk", 44000, 8);
+
+   
         
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES     
